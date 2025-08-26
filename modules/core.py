@@ -75,6 +75,8 @@ class StableDiffusionModel:
         loras_to_load = []
 
         for filename, weight in loras:
+        !pwd
+        print(filename)
             if filename == 'None':
                 continue
 
